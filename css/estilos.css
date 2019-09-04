@@ -1,0 +1,81 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	outline: 0;
+}
+body{
+	font-family: sans-serif;
+}
+.inicio{
+	width: 100%;
+	padding: 30px 0;
+	background: url('../imgs/fondoHeader.png') center fixed no-repeat black;
+	background-size: cover;
+}
+.inicio header{
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+	font-size: 2em;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 200;
+	padding: 10px 0;
+	cursor: pointer;
+}
+.logo span:first-child{
+	border-top: 1px solid white;
+}
+.logo span:last-child{
+	border-bottom: 1px solid white;
+}
+.menuPrincipal a{
+	color: white;
+	font-size: 1em;
+	font-weight: 100;
+	text-transform: uppercase;
+	padding: 10px;
+	border-bottom: 1px solid transparent;
+	transition: ease-in-out 0.2s;
+}
+.menuPrincipal a:hover{
+	border-bottom: 1px solid rgb(255, 108, 38);
+}
+.info{
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+.info aside:last-child{
+	width: 85%;
+	margin: 0 auto;
+}
+.items li{
+	width: 10px;
+	height: 10px;
+	background: white;
+	border-radius: 20px;
+	margin: 10px 20px;
+	cursor: pointer;
+	transition: ease-in-out 0.2s;
+}
+.items li:hover{
+	background: rgb(255, 108, 38);
+}
+.tituloInicio{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 200;
+	font-size: 2em;
+	padding: 10em 0 4em 2em;
+}
